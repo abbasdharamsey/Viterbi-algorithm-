@@ -1,0 +1,15 @@
+We were tasked with applying the Viterbi Algorithm to a discrete Hidden Markov Model to show how the same algorithm is used for automatic speech recognition. In a normal speech recognizer, the observations are derived from real valued measurements of acoustic waveforms. Here, the observations only take on binary values but the concepts are the same. 
+
+The HMM has n=26 hidden states St {1, 2, ... , z} and binary observations Ot {0,1}.
+
+There are 3 ascii data files:
+
+1. Initial state distribution
+2. Transition matrix
+3. Emission matrix.
+
+To run the code, have Python 2.7 installed:
+
+1. python hw5.py
+
+It takes a few minutes to run. 
